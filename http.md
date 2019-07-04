@@ -10,7 +10,7 @@
 - POST  与GET类似，侧重于向服务器发送数据。参数存放在请求实体body内，传输数据较多，安全，并且文件上传只能使用POST，支持任意标准字符集
 - PUT 传输文件，保存对应的URL路径，与DELETE相反
 - DELETE 删除对应的URL的文件，与PUT相反
-- HEAD 获取报文首部，不返回报文主体。用于识别URL是否有效
+- HEAD 获取报文首部，不返回报文主体。用于识别URL是否有效，一般用于客户端第一个http请求中，仅仅判断c/s是否能够通信，这非常有必要。
 - OPTIONS 查询该URL支持的请求方式
 - TRACE
 
@@ -43,7 +43,7 @@
 example:
 
 - 200: 返回成功
-- 204
+- 204 请求执行成功，但是没有数据，浏览器不用刷新页面.也不用导向新的页面。主要用于客户端提交数据到服务器同时只需要返回成功的情况。从而节省多余的数据传输
 - 206 续传
 - 301 永久重定向
 - 302 临时重定向
@@ -78,10 +78,10 @@ Content-Range： bytes 5275648-15143085/15143085
 
 ```
 
-文章链接
+资源链接
 
-- [文章1](http://www.mamicode.com/info-detail-1825350.html)
-
-- [文章2](http://www.mamicode.com/info-detail-1825350.html)
-
-- [文章3](https://www.cnblogs.com/sunny-sl/p/6529830.html)
+[1](http://www.mamicode.com/info-detail-1825350.html)、
+[2](http://www.mamicode.com/info-detail-1825350.html)、
+[3](https://www.cnblogs.com/sunny-sl/p/6529830.html)、
+[4](http://www.mamicode.com/info-detail-1825350.html)、
+[5](https://www.cnblogs.com/zhjh256/p/6910534.html)
