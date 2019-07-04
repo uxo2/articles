@@ -1,12 +1,8 @@
-# http 协议
+# HTTP 协议
 
 - 一个运用在应用层的、基于c/s的、无状态的、面向对象的一种tcp/ip协议。
 
 - 请求方式主要由GET(默认的请求访问URL)、POST(与GET相同，但是存储信息在body内)、PUT(传输文件)
-
--
-
-# HTTP协议
 
 ## 该协议的传输方式
 
@@ -26,7 +22,7 @@
 - 请求首部字段
 - 请求内容实体
 
-响应
+响应：
 
 - 状态行：HTTP版本、状态码、状态码对应的原因
 - 响应首部报文
@@ -83,6 +79,9 @@ Content-Range： bytes 5275648-15143085/15143085
 ```
 
 文章链接
-[断点续传](http://www.mamicode.com/info-detail-1825350.html)
-[状态码](http://www.mamicode.com/info-detail-1825350.html)
-[HTTP](https://www.cnblogs.com/sunny-sl/p/6529830.html)
+
+- [文章1](http://www.mamicode.com/info-detail-1825350.html)
+
+- [文章2](http://www.mamicode.com/info-detail-1825350.html)
+
+- [文章3](https://www.cnblogs.com/sunny-sl/p/6529830.html)
