@@ -3,6 +3,12 @@
 2019/7/16正式上班。每月立一个flag
 ---
 
+## 每日必须任务
+
+- github至少四个contributions
+- segmentfault问答模块至少回答三个
+- 俯卧撑>=20 仰卧起坐>= 30 跑步>= 15分钟 （预测，具体需要调查最优方针）
+
 ### one
 
 - 完成Fun-Enjoy-CSS3和Fun-Enjoy-JS的项目初期模型
